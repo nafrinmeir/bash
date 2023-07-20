@@ -17,10 +17,10 @@ pipeline {
             steps {
                    
                //sh chmod +x bash.sh
-                   sh 'ls'
+                   sh 'pwd'
                    sh 'cat bash.sh'
                    sh 'chmod +x bash.sh'
-                   sh 'bash.sh'
+                   sh 'sh /var/jenkins_home/workspace/bash/bash.sh'
                   // sh ./bash.sh
             }
         }
