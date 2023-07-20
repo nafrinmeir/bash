@@ -18,6 +18,7 @@ pipeline {
                    
                //sh chmod +x bash.sh
                    sh 'ls'
+                   sh 'cat bash.sh'
                    sh 'chmod +x bash.sh'
                    sh 'bash.sh'
                   // sh ./bash.sh
