@@ -5,7 +5,7 @@ pipeline {
         stage('Clone Repository') {
             steps {
                   git(
-                    url: "https://github.com/nafrinmeir/CAPI.git",
+                    url: "https://github.com/nafrinmeir/bash.git",
                     branch: "main",
                     changelog: true,
                     poll: true
