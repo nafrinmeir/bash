@@ -15,8 +15,8 @@ pipeline {
 
                 stage('Run Copy') {
             steps {
-                  sh chmod +x bash.sh
-                  sh ./bash.sh
+                  // sh chmod +x bash.sh
+                  // sh ./bash.sh
             }
         }
     }
